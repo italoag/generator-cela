@@ -1,5 +1,5 @@
 # CELA generator (CochDB, Express, Lockit, AngularJS)
-[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://italoag.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela)
+[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela)
 
 > Yeoman generator for creating CELA stack applications, using CouchDB, Express, Lockit and AngularJS - lets you quickly set up a project following best practices.
 
