@@ -399,6 +399,14 @@ When submitting a new feature, add tests that cover the feature.
 
 See the `travis.yml` for configuration required to run tests. -->
 
+## Community
+
+- [Tweet about it](https://twitter.com/intent/tweet?text=Amazing%20generator%20built%20with%20NodeJS,%20CouchDB,%20Angular,%20Lockit%20and%20Express!&url=https://github.com/italoag/generator-cela&via=italoamorim).
+- Follow [@italoamorim on Twitter](https://twitter.com/italoamorim).
+- Subscribe to Generator-Cela newsletter at [about.me/italoag](http://about.me/italoag/)
+- Let's discuss: [![Join the chat at https://gitter.im/italoag/generator-cela](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/italoag/generator-cela)
+
 ## License
 
 [BSD license](http://opensource.org/licenses/bsd-license.php)
+
