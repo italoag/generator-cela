@@ -7,7 +7,7 @@ var expect = chai.expect;
 var fs = require('fs-extra');
 var exec = require('child_process').exec;
 
-describe('angular-material-fullstack generator', function () {
+describe('cela generator', function () {
   var gen, defaultOptions = {
     script: 'js',
     markup: 'html',
@@ -24,7 +24,7 @@ describe('angular-material-fullstack generator', function () {
     gen.run({}, function () {
       var afGenerator;
       var deps = [path.join('../..', generatorType)];
-      afGenerator = helpers.createGenerator('angular-material-fullstack:' + generatorType, deps, [name]);
+      afGenerator = helpers.createGenerator('cela:' + generatorType, deps, [name]);
 
       helpers.mockPrompt(afGenerator, mockPrompt);
       afGenerator.run([], function () {
@@ -48,7 +48,7 @@ describe('angular-material-fullstack generator', function () {
         return done(err);
       }
 
-      gen = helpers.createGenerator('angular-material-fullstack:app', deps);
+      gen = helpers.createGenerator('cela:app', deps);
       gen.options['skip-install'] = true;
       done();
     }.bind(this));
@@ -111,7 +111,7 @@ describe('angular-material-fullstack generator', function () {
       it('should use existing config if available', function(done) {
         this.timeout(60000);
         fs.copySync(__dirname + '/fixtures/.yo-rc.json', __dirname + '/temp/.yo-rc.json');
-        var gen = helpers.createGenerator('angular-material-fullstack:app', [
+        var gen = helpers.createGenerator('cela:app', [
           '../../app',
           [
             helpers.createDummyGenerator(),

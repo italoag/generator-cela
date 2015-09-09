@@ -151,7 +151,7 @@ module.exports = function (grunt) {
         ]
       ];
 
-      var gen = helpers.createGenerator('angular-material-fullstack:app', deps);
+      var gen = helpers.createGenerator('cela:app', deps);
 
       helpers.mockPrompt(gen, options);
       gen.run({}, function () {

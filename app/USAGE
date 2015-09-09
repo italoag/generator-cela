@@ -1,5 +1,5 @@
 Description:
-    Creates an full-stack AngularJS + Node app
+    Creates an full-stack CouchDB, Express, Lockit and AngularJS
 
 Example:
-    yo angular-fullstack
+    yo cela
