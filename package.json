@@ -1,6 +1,6 @@
 {
   "name": "generator-cela",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Yeoman generator for creating CELA stack applications, using CouchDB, Express, Lockit and AngularJS",
   "keywords": [
     "yeoman-generator",
