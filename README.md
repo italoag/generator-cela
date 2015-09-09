@@ -1,7 +1,15 @@
 # CELA generator (CochDB, Express, Lockit, AngularJS)
-[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela) [![Code Climate](https://codeclimate.com/github/italoag/generator-cela/badges/gpa.svg)](https://codeclimate.com/github/italoag/generator-cela) [![Slack](http://slack.goappes.com/badge.svg)](http://slack.goappes.com)[![Download Month](http://img.shields.io/npm/dm/generator-cela.svg?style=flat)](https://www.npmjs.org/package/generator-cela)
+[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela) [![Code Climate](https://codeclimate.com/github/italoag/generator-cela/badges/gpa.svg)](https://codeclimate.com/github/italoag/generator-cela) [![Download Month](http://img.shields.io/npm/dm/generator-cela.svg?style=flat)](https://www.npmjs.org/package/generator-cela)
 [![Coverage Status](https://coveralls.io/repos/italoag/generator-cela/badge.svg?branch=master&service=github)](https://coveralls.io/github/italoag/generator-cela?branch=master)
+
+#### Lets Talk
+[![Slack](http://slack.goappes.com/badge.svg)](http://slack.goappes.com)
+[![Gitter chat](https://badges.gitter.im/italoag/generator-cela.svg)](https://gitter.im/italoag/generator-cela)
+
+#### Dependencies
 [![Dependencies](http://img.shields.io/david/italoag/generator-cela.svg?style=flat)](https://david-dm.org/italoag/generator-cela)
+[![Dev-Dependency Status](https://david-dm.org/italoag/generator-cela/dev-status.svg)](https://david-dm.org/italoag/generator-cela#info=devDependencies)
+
 
 > Yeoman generator for creating CELA stack applications, using CouchDB, Express, Lockit and AngularJS - lets you quickly set up a project following best practices.
 
