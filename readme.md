@@ -1,13 +1,13 @@
 # AngularJS Material Full-Stack generator
-[![Build Status](https://travis-ci.org/sincraianul/generator-angular-material-fullstack.svg)](https://travis-ci.org/sincraianul/generator-angular-material-fullstack) [![npm version](https://badge.fury.io/js/generator-angular-material-fullstack.svg)](http://badge.fury.io/js/generator-angular-material-fullstack)
+[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela)
 
 > Yeoman generator for creating MEAN stack applications, using MongoDB, Express, AngularJS with Angular Material, and Node - lets you quickly set up a project following best practices.
 
 ## Usage
 
-Install `generator-angular-material-fullstack`:
+Install `generator-cela`:
 ```
-npm install -g generator-angular-material-fullstack
+npm install -g generator-cela
 ```
 
 Make a new directory, and `cd` into it:
@@ -15,16 +15,16 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo angular-material-fullstack`, optionally passing an app name:
+Run `yo cela`, optionally passing an app name:
 ```
-yo angular-material-fullstack [app-name]
+yo cela [app-name]
 ```
 
 Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for a preview of the built app.
 
 ## Prerequisites
 
-* MongoDB - Download and Install [MongoDB](http://www.mongodb.org/downloads) - If you plan on scaffolding your project with mongoose, you'll need mongoDB to be installed and have the `mongod` process running.
+* CouchDB - Download and Install [MongoDB](http://couchdb.apache.org) - If you plan on scaffolding your project, you'll need CouchDB to be installed and have the `couchdb` process running.
 
 ## Supported Configurations
 
@@ -37,8 +37,8 @@ Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for 
 
 **Server**
 
-* Database: `None`, `MongoDB`
-* Authentication boilerplate: `Yes`, `No`
+* Database: `None`, `CouchDB`
+* Authentication boilerplate: `Yes`, `No`, `Lockit`
 * oAuth integrations: `Facebook` `Twitter` `Google`
 * Socket.io integration: `Yes`, `No`
 
@@ -57,28 +57,28 @@ A grunt task looks for new files in your `client/app` and `client/components` fo
 Available generators:
 
 * App
-    - [angular-material-fullstack](#app) (aka [angular-material-fullstack:app](#app))
+    - [cela](#app) (aka [cela:app](#app))
 * Server Side
-    - [angular-material-fullstack:endpoint](#endpoint)
+    - [cela:endpoint](#endpoint)
 * Client Side
-    - [angular-material-fullstack:route](#route)
-    - [angular-material-fullstack:controller](#controller)
-    - [angular-material-fullstack:filter](#filter)
-    - [angular-material-fullstack:directive](#directive)
-    - [angular-material-fullstack:service](#service)
-    - [angular-material-fullstack:provider](#service)
-    - [angular-material-fullstack:factory](#service)
-    - [angular-material-fullstack:decorator](#decorator)
+    - [cela:route](#route)
+    - [cela:controller](#controller)
+    - [cela:filter](#filter)
+    - [cela:directive](#directive)
+    - [cela:service](#service)
+    - [cela:provider](#service)
+    - [cela:factory](#service)
+    - [cela:decorator](#decorator)
 * Deployment
-    - [angular-material-fullstack:openshift](#openshift)
-    - [angular-material-fullstack:heroku](#heroku)
+    - [cela:openshift](#openshift)
+    - [cela:heroku](#heroku)
 
 ### App
 Sets up a new AngularJS + Express app, generating all the boilerplate you need to get started.
 
 Example:
 ```bash
-yo angular-material-fullstack
+yo cela
 ```
 
 ### Endpoint
@@ -87,7 +87,7 @@ Generates a new API endpoint.
 
 Example:
 ```bash
-yo angular-material-fullstack:endpoint message
+yo cela:endpoint message
 [?] What will the url of your endpoint be? /api/messages
 ```
 
@@ -104,7 +104,7 @@ Generates a new route.
 
 Example:
 ```bash
-yo angular-material-fullstack:route myroute
+yo cela:route myroute
 [?] Where would you like to create this route? client/app/
 [?] What will the url of your route be? /myroute
 ```
@@ -123,7 +123,7 @@ Generates a controller.
 
 Example:
 ```bash
-yo angular-material-fullstack:controller user
+yo cela:controller user
 [?] Where would you like to create this controller? client/app/
 ```
 
@@ -137,7 +137,7 @@ Generates a directive.
 
 Example:
 ```bash
-yo angular-material-fullstack:directive myDirective
+yo cela:directive myDirective
 [?] Where would you like to create this directive? client/app/
 [?] Does this directive need an external html file? Yes
 ```
@@ -153,7 +153,7 @@ Produces:
 
 Example:
 ```bash
-yo angular-material-fullstack:directive simple
+yo cela:directive simple
 [?] Where would you like to create this directive? client/app/
 [?] Does this directive need an external html file? No
 ```
@@ -168,7 +168,7 @@ Generates a filter.
 
 Example:
 ```bash
-yo angular-material-fullstack:filter myFilter
+yo cela:filter myFilter
 [?] Where would you like to create this filter? client/app/
 ```
 
@@ -182,7 +182,7 @@ Generates an AngularJS service.
 
 Example:
 ```bash
-yo angular-material-fullstack:service myService
+yo cela:service myService
 [?] Where would you like to create this service? client/app/
 ```
 
@@ -192,14 +192,14 @@ Produces:
     client/app/myService/myService.service.spec.js
 
 
-You can also do `yo angular-material-fullstack:factory` and `yo angular-material-fullstack:provider` for other types of services.
+You can also do `yo cela:factory` and `yo cela:provider` for other types of services.
 
 ### Decorator
 Generates an AngularJS service decorator.
 
 Example:
 ```bash
-yo angular-material-fullstack:decorator serviceName
+yo cela:decorator serviceName
 [?] Where would you like to create this decorator? client/app/
 ```
 
@@ -211,7 +211,7 @@ Produces
 
 Deploying to OpenShift can be done in just a few steps:
 
-    yo angular-material-fullstack:openshift
+    yo cela:openshift
 
 A live application URL will be available in the output.
 
@@ -248,7 +248,7 @@ Commit and push the resulting build, located in your dist folder:
 
 Deploying to heroku only takes a few steps.
 
-    yo angular-material-fullstack:heroku
+    yo cela:heroku
 
 To work with your new heroku app using the command line, you will need to run any `heroku` commands from the `dist` folder.
 
@@ -378,7 +378,7 @@ An example server component in `server/api`
 
 <!-- ## Contribute
 
-See the [contributing docs](https://github.com/sincraianul/generator-angular-material-fullstack/blob/master/contributing.md)
+See the [contributing docs](https://github.com/italoag/generator-cela/blob/master/contributing.md)
 
 This project has 2 main branches: `master` and `canary`. The `master` branch is where the current stable code lives and should be used for production setups. The `canary` branch is the main development branch, this is where PRs should be submitted to (backport fixes may be applied to `master`).
 
