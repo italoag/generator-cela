@@ -1,7 +1,7 @@
-# AngularJS Material Full-Stack generator
-[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela)
+# CELA generator (CochDB, Express, Lockit, AngularJS)
+[![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://italoag.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela)
 
-> Yeoman generator for creating MEAN stack applications, using MongoDB, Express, AngularJS with Angular Material, and Node - lets you quickly set up a project following best practices.
+> Yeoman generator for creating CELA stack applications, using CouchDB, Express, Lockit and AngularJS - lets you quickly set up a project following best practices.
 
 ## Usage
 
@@ -24,7 +24,7 @@ Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for 
 
 ## Prerequisites
 
-* CouchDB - Download and Install [MongoDB](http://couchdb.apache.org) - If you plan on scaffolding your project, you'll need CouchDB to be installed and have the `couchdb` process running.
+* CouchDB - Download and Install [CouchDB](http://couchdb.apache.org) - If you plan on scaffolding your project, you'll need CouchDB to be installed and have the `couchdb` process running.
 
 ## Supported Configurations
 
@@ -251,11 +251,6 @@ Deploying to heroku only takes a few steps.
     yo cela:heroku
 
 To work with your new heroku app using the command line, you will need to run any `heroku` commands from the `dist` folder.
-
-
-If you're using mongoDB you will need to add a database to your app:
-
-    heroku addons:add mongolab
 
 Your app should now be live. To view it run `heroku open`.
 
