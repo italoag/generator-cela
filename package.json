@@ -48,10 +48,10 @@
     "grunt-mocha-test": "^0.11.0",
     "grunt-release": "~0.6.0",
     "load-grunt-tasks": "~0.2.0",
-    "marked": "~0.2.8",
+    "marked": "~0.3.5",
     "mocha": "~1.21.0",
     "q": "^1.0.1",
-    "semver": "~2.2.1",
+    "semver": "~5.0.1",
     "shelljs": "^0.3.0",
     "underscore.string": "^2.3.3"
   },
