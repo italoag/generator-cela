@@ -4,7 +4,7 @@
 [![Build Status](https://snap-ci.com/italoag/generator-cela/branch/master/build_image)](https://snap-ci.com/italoag/generator-cela/branch/master)
 
 #### Lets Talk
-[![Slack](http://slack.goappes.com/badge.svg)](http://slack.goappes.com)
+[![Slack](http://avido.slack.com/badge.svg)](http://avido.slack.com)
 [![Gitter chat](https://badges.gitter.im/italoag/generator-cela.svg)](https://gitter.im/italoag/generator-cela)
 
 #### Dependencies
