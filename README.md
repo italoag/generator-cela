@@ -1,4 +1,6 @@
 # CELA generator (CochDB, Express, Lockit, AngularJS)
+
+[![Join the chat at https://gitter.im/italoag/generator-cela](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/italoag/generator-cela?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/italoag/generator-cela.svg)](https://travis-ci.org/italoag/generator-cela) [![npm version](https://badge.fury.io/js/generator-cela.svg)](http://badge.fury.io/js/generator-cela) [![Code Climate](https://codeclimate.com/github/italoag/generator-cela/badges/gpa.svg)](https://codeclimate.com/github/italoag/generator-cela) [![Download Month](http://img.shields.io/npm/dm/generator-cela.svg?style=flat)](https://www.npmjs.org/package/generator-cela)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://www.npmjs.org/package/generator-cela)
 [![Build Status](https://snap-ci.com/italoag/generator-cela/branch/master/build_image)](https://snap-ci.com/italoag/generator-cela/branch/master)
