@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://www.npmjs.org/package/generator-cela)
 [![Build Status](https://snap-ci.com/italoag/generator-cela/branch/master/build_image)](https://snap-ci.com/italoag/generator-cela/branch/master)
 
+
+
 #### Lets Talk
 [![Slack](http://avido.slack.com/badge.svg)](http://avido.slack.com)
 [![Gitter chat](https://badges.gitter.im/italoag/generator-cela.svg)](https://gitter.im/italoag/generator-cela)
@@ -91,7 +93,7 @@ Example:
 ```bash
 yo cela
 ```
-
+
 ### Endpoint
 Generates a new API endpoint.
 
