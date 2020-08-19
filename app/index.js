@@ -10,7 +10,8 @@ var fs        = require('fs')
   , genUtils  = require('../util.js')
   , yeoman    = require('yeoman-generator')
   , chalk     = require('chalk')
-  , wiredep   = require('wiredep');
+  , wiredep   = require('wiredep')
+  , _         = require('underscore.string');
 
 
 /**
